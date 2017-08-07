@@ -1,0 +1,24 @@
+<nav class="navbar navbar-inner navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header ttUC">
+      <button type="button" class="navbar-toggle" (click)="isCollapsed = !isCollapsed">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+      <a class="navbar-brand" routerLink="/customers">
+                <img class="logo" src="assets/logo.png" alt="logo" />
+                <span class="app-title">My Learning</span>
+            </a>
+      <span class="navbar-collapse" [attr.data-collapse]="isCollapsed">
+                <ul class="nav navbar-nav nav-pills navBarPadding">
+                    <li routerLinkActive="active"><a routerLink="/about">About</a></li>
+                </ul>
+            </span>
+    </div>
+    <div class="search-box">
+      <input aria-label="search" placeholder="Search" type="search">
+    </div>
+  </div>
+</nav>

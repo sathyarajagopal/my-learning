@@ -1,1 +1,235 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+}
+
+main {
+    position: relative;
+    padding-top: 60px;
+    height: 100%;
+}
+
+.logo {
+    width: 60px;
+    height: 45px;
+}
+
+.landing {
+    width: 300px;
+    height: 200px;
+}
+
+.ttUC {
+    text-transform: uppercase
+}
+
+*:focus {
+    outline: none;
+}
+
+div.search-box {
+    float: right;
+    margin-top: 15px;
+}
+
+div.search-box input {
+    color: #333;
+    border: none;
+    border-radius: 100px;
+    background-color: #fafafa;
+    padding: 5px 16px;
+    margin-left: 8px;
+    width: 180px;
+    max-width: 240px;
+    height: 50%;
+}
+
+/* Ensure display:flex and others don't override a [hidden] */
+[hidden] { 
+    display: none !important; 
+}
+
+th {
+  cursor: pointer;
+}
+
+.app-title {
+    line-height:50px;
+    font-size:20px;
+    color: white;
+}
+
+.toolbar-item a {
+  cursor: pointer;
+}
+
+.orders-table {
+    width:50%;
+}
+
+.orders-table td {
+    width: 50%;
+}
+
+.summary-border {
+    border-top: 2px solid black;
+}
+
+.indent {
+    margin-left:5px;
+}
+
+.navbar {
+    height: 60px;
+}
+
+.navbar .nav > li.toolbar-item > a {
+    color: #9E9E9E;
+    font-weight:bold;
+}
+
+.navbar .nav > .toolbar-item > a.active {
+    color: #000;
+}
+
+.navbar-header {
+    margin-top: -10px;
+}
+
+.navbar-collapse {
+    float:right;
+    margin-top: 15px;
+}
+
+.nav.navbar-padding {
+    margin-left:25px;
+    margin-top: 10px;
+}
+
+a.navbar-brand {
+    color: #fff;
+}
+
+.navbar-brand>img {
+    display: inline-block;
+}
+
+.navbar-inner {
+    padding-left: 0px;
+    background-color: #1976d2;
+}
+
+.navbar-inner.toolbar {
+    background-color: #fafafa;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background-color: #efefef;
+    color: #808080;
+}
+
+.navbar .nav li.toolbaritem a:hover, .navbar .nav li a:hover {
+    color: #E03930;
+}
+
+.navbar .nav > li  {
+    cursor:pointer;
+}
+
+.navbar .nav > li > a {
+    color: white;
+    font-weight:bold;
+    height:30px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+}
+
+.navbar .nav > li.toolbaritem > a {
+    color: black;
+    font-weight:bold;
+}
+
+.nav.navBarPadding {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.navbarText {
+    font-weight:bold;
+}
+
+.navbar-toggle {
+  border: 1px solid white;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-inner.footer {
+    height:50px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    color: #fafafa;
+    text-align: center;
+    background-color: #1976d2;
+    padding: 48px;
+}
+
+footer h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 0 16px;
+}
+
+div.footer-grid {
+    justify-content: center;
+    display: flex;
+     margin: 0 0 40px; 
+}
+
+footer div.footer-grid ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+footer div.footer-grid ul li {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+footer .footer-block {
+    margin: 0 24px;
+    vertical-align: top;
+}
+
+footer a, footer a:hover, footer a:focus{
+    color: #fafafa;
+}
+
+footer a:hover {
+    color: #fafafa;
+    text-decoration: underline;
+}
+
+form {
+	width:50%;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
