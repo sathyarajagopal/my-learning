@@ -144,7 +144,6 @@ a.navbar-brand {
 
 .navbar .nav > li > a {
     color: white;
-    font-weight:bold;
     height:30px;
     padding-top: 6px;
     padding-bottom: 0px;
@@ -152,7 +151,6 @@ a.navbar-brand {
 
 .navbar .nav > li.toolbaritem > a {
     color: black;
-    font-weight:bold;
 }
 
 .nav.navBarPadding {
@@ -161,7 +159,6 @@ a.navbar-brand {
 }
 
 .navbarText {
-    font-weight:bold;
 }
 
 .navbar-toggle {
@@ -232,4 +229,8 @@ form {
 
 a:hover, a:focus {
   text-decoration: none;
+}
+
+a, a>em, input, input>em, li, li>em, ol, ol>em, p, p>em, ul, ul>em {
+    letter-spacing: .3px;
 }
